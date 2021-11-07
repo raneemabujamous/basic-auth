@@ -4,12 +4,16 @@ Author:raneem ABU JAMOUS
 
 ## ACTION
 
+https://github.com/raneemabujamous/basic-auth/actions
+
 ## Huroko
 
-.env
+https://lab06appraneem.herokuapp.com/
 
-### PORT - [3000] ||[8000]
+## .env
 
+PORT - [3000]
+DATABASE_URL=postgres://localhost:5432/lab06
 npm start
 
 Endpoint: /signup
@@ -28,4 +32,4 @@ Returns Object
 
 Unit Tests: npm run test
 
-!(sum)[lab06.PNG]
+![sum](lab06.PNG)
