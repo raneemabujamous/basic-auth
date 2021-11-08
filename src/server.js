@@ -32,7 +32,7 @@ app.use("*", handle404);
 app.use(handle500error);
 
 function start() {
-  app.listen(3000, () => console.log("server up"));
+  app.listen(process.env.PORT || 5000, () => console.log("server up"));
 }
 
 module.exports = {
